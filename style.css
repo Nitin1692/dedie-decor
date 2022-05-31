@@ -33,3 +33,37 @@ ul a{
 nav ul a:hover{
     color: #FF9677;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    align-content: right;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}  
+
+.fa-facebook {
+    background: #55ACEE;
+    color: white;
+  }  
+
+.fa-bells {
+    background: #55ACEE;
+    color: white;
+    
+}  
+
+i{
+    size: 150px;
+}
