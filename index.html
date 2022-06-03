@@ -18,6 +18,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
   </head>
   <body>
     <section class="header" aria-label="Newest Photos">
@@ -40,8 +44,8 @@
         </ul>
       </nav>
       <div class="carousel">
-        <button class="carousel-button prev" data-carousel-button="prev" >&#x021A9;</button>
-        <button class="carousel-button next" data-carousel-button="next" >&#x021AA;</button>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8617;</button>
+        <button class="carousel-button next" data-carousel-button="next" >&#8618;</button>
         <ul data-slides>
           <li class="slide" data-active>
             <img src="Img/p1.jpg" alt="" srcset="">
@@ -61,6 +65,19 @@
         </ul>
       </div>
     </section>
+    <section>
+          <H6>Our Services</H6>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+    </section>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -73,4 +90,9 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script type="module">
+  import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
+  const swiper = new Swiper();
+</script>
 </html>
