@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 .logo >img{
-    width: 20px;
+    width: 100px;
     align-content: inherit;
     align-items: flex-start;
     padding: 10px;
-    height: 25px;
+    height: 60px;
     clip-path: circle(50% at 50% 50%);
     margin-top: 13px;
     margin-left: 200px;
@@ -28,7 +28,7 @@ nav{
 
 .logo{
 
-    background: aliceblue;
+   
     margin-top: 13px;
 }
 
@@ -220,6 +220,6 @@ body{
     margin-top: 170px;
     margin-left: 140px;
     font-family: 'Playball', cursive;
-    font-size: 22px;
+    font-size: 25px;
 }
 
