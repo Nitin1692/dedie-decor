@@ -198,7 +198,7 @@ body{
 }
 
 .aboutImage:hover{
-    transform: scale(1.1);
+    transform: translate3d(42px, -62px, -135px);
 }
 
 .carousel-button:focus,
