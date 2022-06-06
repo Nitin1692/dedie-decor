@@ -1,18 +1,22 @@
-const buttons = document.querySelectorAll("[data-carousel-button]");
-
-buttons.forEach(button => {
-    button.addEventLister("click", ()=>{
-        const offset = button.dataset.carsouelButton === "next" ? 1 : -1
-        const slides = button.closest("[data-carousel]").querySelector("[data-slides]")
-        const activeSlides = slides.querySelector("[data-active]");
-        let newIndex = [...slides.children].indexOf(activeSlides) + offset;
-        if (newIndex < 0) {
-            newIndex = slides.children.length - 1
-        }
-        if(newIndex>=slides.children.length){
-            newIndex = 0;
-        }
-        slides.children[newIndex].dataset.active = true;
-        delete activeSlides.dataset.active
-    })
-});
+var slide_index = 1;
+displaySlides(slide_index);
+function nextSlide(n) {
+    displaySlides(slide_index += n);
+}
+function currentSlide(n) {
+    displaySlides(slide_index = n);
+}
+function displaySlides(n) {
+    var i;
+    var slides = document.getElementsByClassName('slide');
+    if(n > slides.length){
+        slide_index = 1;
+    }
+    if(n < 1){
+        slide_index = slides.length;
+    }
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slide_index - 1].style.display = "block"
+}
