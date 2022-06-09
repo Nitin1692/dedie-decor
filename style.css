@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -112,6 +114,8 @@ nav ul a:hover::after{
 body{
 
     margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 .carousel{
@@ -248,22 +252,25 @@ body{
 }
 
 .item-bx1:hover{
-   background-image: url('Img/h78.jpg');
+   background-image: url('Img/12.jpg');
 }
 
 .item-bx1{
-    height: 500px;
+    height: 450px;
     width: 200px;
+    border: 1px solid #E5E5E5;
 }
 
 .item-bx2{
-    height: 500px;
+    height: 450px;
     width: 200px;
+    border: 1px solid #E5E5E5 ;
 }
 
 .item-bx3{
-    height: 500px;
+    height: 450px;
     width: 200px;
+    border: 1px solid #E5E5E5;    ;
 }
 
 
@@ -277,8 +284,8 @@ body{
     background-image: url('Img/h35.jpg');
 }
 
-.row{
-    justify-content: space-between;
+.fp{
+    padding-left: 250px;
 }
 
 .Arch{
@@ -313,10 +320,26 @@ body{
     padding-left: 0px;
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .expertssection{
    position: relative;
 }
+
+
+.item-bx4{
+    height: 200px;
+    width: 250px;
+}
+
+#nm{
+   padding-top: 100px;
+}
+
+#nm{
+    font-family: 'Monoton', cursive;
+}
+
+
