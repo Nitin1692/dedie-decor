@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -257,22 +259,30 @@ body{
 
 .item-bx1{
     height: 450px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #E5E5E5;
 }
 
 .item-bx2{
     height: 450px;
-    width: 200px;
     border: 1px solid #E5E5E5 ;
 }
 
 .item-bx3{
     height: 450px;
-    width: 200px;
+    width: 400px;
     border: 1px solid #E5E5E5;    ;
 }
 
+
+
+#olj{
+    width: 350px; 
+}
+
+.pkl{
+    padding-left: 1350px;
+}
 
 .item-bx2:hover{
     background-image: url('Img/b4.jpg');
@@ -285,7 +295,7 @@ body{
 }
 
 .fp{
-    padding-left: 250px;
+    padding-left: 150px;
 }
 
 .Arch{
@@ -293,23 +303,28 @@ body{
 }
 
 .mod{
-    font-family: 'Joan', serif;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
 }
 
-.inter{
-    font-family: 'Joan', serif;
+.Inter{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
 }
 
 .fie{
     font-family: 'Oswald', sans-serif;
+    font-size: 30px;
 }
 
 .pie{
     font-family: 'Oswald', sans-serif;
+    font-size: 30px;
 }
 
 .hola{
     font-family: 'Oswald', sans-serif;
+    font-size: 30px;
 }
 
 .Experts{
@@ -330,8 +345,9 @@ body{
 
 
 .item-bx4{
-    height: 200px;
+    height: 400px;
     width: 250px;
+    border: 1px solid #E5E5E5; 
 }
 
 #nm{
@@ -343,3 +359,97 @@ body{
 }
 
 
+
+.insta {
+    background: transparent;
+    color: black;
+  }  
+  
+  .face {
+      background: transparent;
+      color: black;
+    }  
+  
+
+#nilesh{
+        padding-top: 25px;
+        position: relative;
+        right: -20px;
+ }    
+
+ #exp1{
+    padding-top: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+ }
+
+ .saw{
+    position: relative;
+    right: -60px;
+ }
+
+ .item-bx5{
+    height: 400px;
+    width: 250px;
+    border: 1px solid #E5E5E5; 
+}
+
+.item-bx6{
+    height: 400px;
+    width: 250px;
+    border: 1px solid #E5E5E5; 
+}
+
+.item-bx7{
+    height: 400px;
+    width: 50px;
+    border: 1px solid #E5E5E5; 
+}
+
+.item-bx4{
+    height: 400px;
+    width: 250px;
+    border: 1px solid #E5E5E5;
+}
+
+#read{
+    padding-left: 1350px;
+}
+
+.rt{
+    position: relative;
+    top: -200px;
+}
+
+.um{
+    position: relative;
+    top: -200px;
+    display: inline;
+}
+
+.hol{
+    position: relative;
+    right: -90px;
+}
+
+.mint{
+    position: relative;
+    right: -100px;
+}
+
+.pyq{
+    position: relative;
+    right: -100px;
+}
+
+#Face{
+    position: relative;
+     right: -100px;
+     margin: 6.5px;
+}
+
+#Insta{
+    right: -100px;
+    position: relative;
+     
+}
