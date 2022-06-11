@@ -419,12 +419,12 @@ body{
 .rt{
     position: relative;
     top: -200px;
+    right: -5px;
 }
 
 .um{
     position: relative;
     top: -200px;
-    display: inline;
 }
 
 .hol{
@@ -452,4 +452,61 @@ body{
     right: -100px;
     position: relative;
      
+}
+
+#Inst{
+    right: -135px;
+    position: relative;
+    left: -2px;
+}
+
+#Txt{
+  display: inline;
+}
+
+#img1{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+    margin: 2px;
+}
+
+#img2{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+    
+}
+
+#img3{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+}
+
+#img4{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+}
+
+#img5{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+}
+
+.Develop{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.box{
+    margin-top: 75px;
+}
+
+#Front{
+    padding-left: 185px;
+   
 }
