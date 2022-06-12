@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -285,8 +288,7 @@ body{
 }
 
 .item-bx2:hover{
-    background-image: url('Img/b4.jpg');
-    
+    background-image: url('Img/b4.jpg'); 
 }
 
 
@@ -454,10 +456,9 @@ body{
      
 }
 
-#Inst{
-    right: -135px;
+.insta{
     position: relative;
-    left: -2px;
+    right: -140px;
 }
 
 #Txt{
@@ -507,6 +508,80 @@ body{
 }
 
 #Front{
-    padding-left: 185px;
-   
+    padding-left: 290px;
+    position: relative;
+    top: -33px;
+    right: -15px;
+    font-family: 'Crimson Text', serif;
 }
+
+.Fsa{
+    position: relative;
+    right: -35px;
+    bottom: -15px;
+    font-family: 'Crimson Text', serif;
+}
+
+.Pbv{
+    padding-left: 545px;
+    position: relative;
+    top: -82px;
+    font-family: 'Crimson Text', serif;
+}
+
+.olp{
+    padding-left: 795px;
+    position: relative;
+    top: -132px;
+    font-family: 'Crimson Text', serif;
+}
+
+.mnu{
+    padding-left: 1045px;
+    position: relative;
+    top: -183px;
+    font-family: 'Crimson Text', serif;
+}
+
+.fa-linkedin{
+    background: transparent;
+    color: black;
+}
+
+.swq{
+    position: relative;
+    top: -155px;
+    right: -35px;
+    left: -3px;
+}
+
+.dsa{
+    position: relative;
+    top: -210px;
+    right: -35px;
+    left: -35px;
+    padding-left: 300px;
+}
+
+.back{
+    padding-left: 600px;
+    position: relative;
+    top: -259px; 
+    left: -95px;   
+}
+
+.mit{
+    padding-left: 770px;
+    position: relative;
+    top: -315px;
+    left: -10px;
+}
+
+.mlit{
+    padding-left: 1050px;
+    position: relative;
+    top: -370px;
+    left: -33px;
+}
+
+
