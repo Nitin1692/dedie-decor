@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -526,6 +527,7 @@ body{
     padding-left: 545px;
     position: relative;
     top: -82px;
+    right: -15px;
     font-family: 'Crimson Text', serif;
 }
 
@@ -533,6 +535,7 @@ body{
     padding-left: 795px;
     position: relative;
     top: -132px;
+    right: -10px;
     font-family: 'Crimson Text', serif;
 }
 
@@ -540,6 +543,7 @@ body{
     padding-left: 1045px;
     position: relative;
     top: -183px;
+    right: -20px;
     font-family: 'Crimson Text', serif;
 }
 
@@ -584,4 +588,146 @@ body{
     left: -33px;
 }
 
+
+
+.img1::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+
+}
+
+.img1:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.img2::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img2:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.img3::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img3:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.img4::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img4:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.img5::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img5:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.fn{
+    padding-left: 35px;
+    
+}
+
+#item15{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #E5E5E5;
+    margin-right: 15px;
+}
+
+#item16{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #E5E5E5;
+    margin-right: 15px;
+}
+
+#item17{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #E5E5E5;
+    margin-right: 15px;
+}
+
+#item18{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #E5E5E5;
+    margin-right: 15px;
+}
+
+
+
+.living{
+    font-family: 'Charis SIL', serif;
+    font-size: 30px;
+}
+
+.Dining{
+    font-family: 'Charis SIL', serif;
+    font-size: 30px;
+}
+
+.Kitchen{
+    font-family: 'Charis SIL', serif;
+    font-size: 30px;
+}
+
+.Balcony{
+    font-family: 'Charis SIL', serif;
+    font-size: 30px;
+}
 
