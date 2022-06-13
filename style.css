@@ -683,28 +683,28 @@ body{
 
 #item15{
     width: 300px;
-    height: 300px;
+    height: 410px;
     border: 1px solid #E5E5E5;
     margin-right: 15px;
 }
 
 #item16{
     width: 300px;
-    height: 300px;
+    height: 410px;
     border: 1px solid #E5E5E5;
     margin-right: 15px;
 }
 
 #item17{
     width: 300px;
-    height: 300px;
+    height: 410px;
     border: 1px solid #E5E5E5;
     margin-right: 15px;
 }
 
 #item18{
     width: 300px;
-    height: 300px;
+    height: 410px;
     border: 1px solid #E5E5E5;
     margin-right: 15px;
 }
@@ -713,21 +713,34 @@ body{
 
 .living{
     font-family: 'Charis SIL', serif;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .Dining{
     font-family: 'Charis SIL', serif;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .Kitchen{
     font-family: 'Charis SIL', serif;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .Balcony{
     font-family: 'Charis SIL', serif;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 
+.wall{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Room{
+    position: relative;
+    right: -10px;
+}
