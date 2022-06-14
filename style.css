@@ -502,6 +502,7 @@ body{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
+    margin-top: 100px;
 }
 
 .box{
@@ -719,28 +720,60 @@ body{
 
 .Dining{
     font-family: 'Charis SIL', serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
 .Kitchen{
     font-family: 'Charis SIL', serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
 .Balcony{
     font-family: 'Charis SIL', serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
 .wall{
     text-align: center;
     font-size: 20px;
+    margin-top: 5px;
 }
 
 .Room{
     position: relative;
     right: -10px;
 }
+
+.Table{
+    position: relative;
+    right: -10px; 
+}
+
+.Lamp{
+    position: relative;
+    right: -10px;
+}
+
+.lamp{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.grass{
+    position: relative;
+    right: -10px;
+}
+
+#write{
+    padding-left: 1300px;
+}
+
+.arrow{
+    position: relative;
+    top: -210px;
+}
+
