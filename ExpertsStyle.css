@@ -16,10 +16,11 @@
 .Expert1{
     padding-left: 450px;
     position: relative;
-    top: -845px;
+    top: -905px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     right: -75px;
+    left: -20px;
 }
 
 .logo >img{
@@ -136,20 +137,21 @@ body{
 
 .afflitate1{
     position: relative;
-    top: -850px;
-    right: -525px;
+    top: -920px;
+    right: -430px;
+    
 }
 
 .rod{
     position: relative;
-    top: -945px;
-    right: -1100px;
+    top: -1010px;
+    right: -130px;
 }
 
 .quote1{
     position: relative;
-    top: -930px;
-    right: -1065px;
+    top: -1000px;
+    right: -80px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
@@ -176,10 +178,11 @@ body{
 .Expert2{
     padding-left: 450px;
     position: relative;
-    top: -890px;
+    top: -1000px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    right: -75px;
+    right: -110px;
+    left: -15px;
 }
 
 
@@ -188,7 +191,7 @@ body{
 .rod1{
     position: relative;
     top: -1020px;
-    right: -1100px;
+    left: -500px;
 }
 
 .rod1::before{
@@ -220,7 +223,7 @@ body{
 .Expert3{
     padding-left: 450px;
     position: relative;
-    top: -860px;
+    top: -970px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     right: -75px;
@@ -228,8 +231,8 @@ body{
 
 .rod2{
     position: relative;
-    top: -970px;
-    right: -1100px;
+    top: -1090px;
+    right: -1170px;
 }
 
 .rod2::before{
@@ -252,8 +255,8 @@ body{
 
 .quote3{
     position: relative;
-    top: -960px;
-    right: -1065px;
+    top: -1080px;
+    right: -1115px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
@@ -572,4 +575,24 @@ body{
     position: relative;
     top: -900px;
     right: -525px;
+}
+
+.crafty{
+    padding-top: 50px;
+    position: relative;
+    top: -720px;
+    right: -960px;
+}
+
+.sushmita{
+    padding-top: 50px;
+    position: relative;
+    top: -750px;
+}
+
+.Divya{
+    padding-top: 50px;
+    position: relative;
+    top: -790px;
+    right: -1000px;
 }
