@@ -190,8 +190,8 @@ body{
 
 .rod1{
     position: relative;
-    top: -1020px;
-    left: -500px;
+    top: -1130px;
+    right: -130px;
 }
 
 .rod1::before{
@@ -214,8 +214,8 @@ body{
 
 .quote2{
     position: relative;
-    top: -1010px;
-    right: -1065px;
+    top: -1120px;
+    right: -70px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
