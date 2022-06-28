@@ -204,7 +204,6 @@ body{
     position: absolute;
     z-index: 1;
     top: 100%;
-
 }
 
 .rod1:hover{
@@ -245,7 +244,6 @@ body{
     position: absolute;
     z-index: 1;
     top: 100%;
-
 }
 
 .rod2:hover{
@@ -257,29 +255,6 @@ body{
     position: relative;
     top: -1080px;
     right: -1115px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.Expert4{
-    padding-left: 450px;
-    position: relative;
-    top: -880px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    right: -75px;
-}
-
-.rod3{
-    position: relative;
-    top: -1000px;
-    right: -1100px;
-}
-
-.quote4{
-    position: relative;
-    top: -990px;
-    right: -1065px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
@@ -299,31 +274,12 @@ body{
     right: -525px;
 }
 
-
 .quote5{
     position: relative;
     top: -990px;
     right: -1065px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-}
-
-.rod3::before{
-    content:attr(title);
-    visibility: visible;
-    opacity: 1;
-    background-color: black;
-    text-align: center;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-
-}
-
-.rod3:hover{
-    opacity: 1;
-    visibility: visible;
 }
 
 .rod4{
@@ -350,227 +306,6 @@ body{
     visibility: visible;
 }
 
-.Expert6{
-    padding-left: 450px;
-    position: relative;
-    top: -870px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    right: -75px;
-}
-
-.afflitate2{
-    position: relative;
-    top: -880px;
-    right: -525px;
-}
-
-.rod5{
-    position: relative;
-    top: -1010px;
-    right: -1100px;
-}
-
-.rod5::before{
-    content:attr(title);
-    visibility: visible;
-    opacity: 1;
-    background-color: black;
-    text-align: center;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-
-}
-
-.rod5:hover{
-    opacity: 1;
-    visibility: visible;
-}
-
-
-.quote6{
-    position: relative;
-    top: -990px;
-    right: -1065px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.Expert7{
-    padding-left: 450px;
-    position: relative;
-    top: -890px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    right: -75px;
-}
-
-.afflitate3{
-    position: relative;
-    top: -900px;
-    right: -525px;
-}
-
-.rod6{
-    position: relative;
-    top: -1040px;
-    right: -1100px;
-}
-
-.rod6::before{
-    content:attr(title);
-    visibility: visible;
-    opacity: 1;
-    background-color: black;
-    text-align: center;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-
-}
-
-.rod6:hover{
-    opacity: 1;
-    visibility: visible;
-}
-
-.quote7{
-    position: relative;
-    top: -1020px;
-    right: -1065px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.rod7{
-    position: relative;
-    top: -950px;
-    right: -1100px;
-}
-
-.rod7::before{
-    content:attr(title);
-    visibility: visible;
-    opacity: 1;
-    background-color: black;
-    text-align: center;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-
-}
-
-.rod7:hover{
-    opacity: 1;
-    visibility: visible;
-}
-
-.quote8{
-    position: relative;
-    top: -935px;
-    right: -1065px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.afflitate4{
-    position: relative;
-    top: -860px;
-    right: -525px;
-}
-
-.Expert8{
-    padding-left: 450px;
-    position: relative;
-    top: -855px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    right: -75px;
-}
-
-.rod8{
-    position: relative;
-    top: -970px;
-    right: -1100px; 
-}
-
-.rod8::before{
-    content:attr(title);
-    visibility: visible;
-    opacity: 1;
-    background-color: black;
-    text-align: center;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-
-}
-
-.rod8:hover{
-    opacity: 1;
-    visibility: visible;
-}
-
-.quote9{
-    position: relative;
-    top: -955px;
-    right: -1065px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.Expert9{
-    padding-left: 450px;
-    position: relative;
-    top: -880px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    right: -75px;
-}
-
-.afflitate5{
-    position: relative;
-    top: -895px;
-    right: -525px;
-}
-
-.rod9{
-    position: relative;
-    top: -1040px;
-    right: -1100px; 
-}
-
-.rod9::before{
-    content:attr(title);
-    visibility: visible;
-    opacity: 1;
-    background-color: black;
-    text-align: center;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-
-}
-
-.rod9:hover{
-    opacity: 1;
-    visibility: visible;
-}
-
-.quote10{
-    position: relative;
-    top: -1023px;
-    right: -1065px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-
 .afflitate6{
     position: relative;
     top: -900px;
@@ -595,4 +330,222 @@ body{
     position: relative;
     top: -790px;
     right: -1000px;
+}
+
+.Amberkalaa{
+    padding-top: 50px;
+    position: relative;
+    top: -850px;
+}
+
+.quote4{
+    position: relative;
+    top: -1220px;
+    right: -1095px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.rod3{
+    position: relative;
+    top: -1230px;
+    right: -1160px;
+}
+
+.rod3::before{
+    content:attr(title);
+    visibility: visible;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+
+}
+
+.rod3:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.Expert4{
+    padding-left: 450px;
+    position: relative;
+    top: -1075px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    right: -75px;
+}
+
+
+.afflitate2{
+    position: relative;
+    top: -1090px;
+    right: -525px;
+}
+
+.Story{
+    padding-top: 50px;
+    position: relative;
+    top: -850px;
+    right: -1000px;
+}
+
+.Expert6{
+    padding-left: 450px;
+    position: relative;
+    top: -1080px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    right: -75px;
+    left: -55px;
+}
+
+.afflitate3{
+    position: relative;
+    top: -1095px;
+    right: -395px;
+}
+
+.rod5{
+    position: relative;
+    top: -1190px;
+    right: -130px;
+}
+
+.rod5::before{
+    content:attr(title);
+    visibility: visible;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+
+}
+
+.rod5:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.quote6{
+    position: relative;
+    top: -1180px;
+    right: -75px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Shizni{
+    padding-top: 50px;
+    position: relative;
+    top: -870px;
+}
+
+.Expert7{
+    padding-left: 450px;
+    position: relative;
+    top: -1110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    right: -75px;
+}
+
+.afflitate4{
+    position: relative;
+    top: -1120px;
+    right: -525px;
+}
+
+.quote7{
+    position: relative;
+    top: -1250px;
+    right: -1120px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rod6{
+    position: relative;
+    top: -1260px;
+    right: -1165px;
+}
+
+.rod6::before{
+    content:attr(title);
+    visibility: visible;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+
+}
+
+.rod6:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.Bhakti{
+    padding-top: 50px;
+    position: relative;
+    top: -940px;
+    right: -990px;
+}
+
+.Expert8{
+    padding-left: 450px;
+    position: relative;
+    top: -1100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    right: -75px;
+    left: -45px;
+}
+
+.afflitate5{
+    position: relative;
+    top: -1115px;
+    right: -405px;
+}
+
+.rod7{
+    position: relative;
+    top: -1190px;
+    right: -120px;
+}
+
+.rod7::before{
+    content:attr(title);
+    visibility: visible;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+
+}
+
+.rod7:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.quote8{
+    position: relative;
+    top: -1175px;
+    right: -80px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
