@@ -140,7 +140,8 @@ body{
     width: 250px;
     height: 350px;
     position: relative;
-    top: -500px;
+    top: -570px;
+    right: -40px;
     background-color: #FFFFFF;
     display: flex;
     border-radius: 5px;
@@ -148,6 +149,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 1px solid black;
 }
 
 .slider a{
@@ -163,33 +165,46 @@ body{
     height: auto;
     max-width: 100%;
     max-height: 100%;
+    position: relative;
+    bottom: -12px;
 }
 
-.time{
-    position: relative;
-    top:0px;
-    right:-225px;
-    color: #f16007;
-}
+
 
 .detail{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    bottom: -4px;
     font-size: 13px;
     line-height: 35px;
 }
 
-.price{
-    color: red;
-    line-height: 20px;
-}
+
 
 .link{
-    position: absolute;
-    bottom: 0px;
-    height: 45px;
-    width: 100%;
-    justify-content: center;
-    display: flex;
+    position: relative;
+}
+#flip2{
+    position: relative;
+    top: -15px;
+}
+
+.flip{
+    position: relative;
+    
+}
+#Flip1{
+    position: relative;
+    top: -16px;
+}
+
+.slider:hover{
+    box-shadow: 2px 2px 12px olive;
+}
+
+.slider:hover .img-box img{
+    transform: scale(1.07);
+    transform: all ease 0.3s;
 }
