@@ -140,7 +140,7 @@ body{
     width: 250px;
     height: 350px;
     position: relative;
-    
+    top: -500px;
     background-color: #FFFFFF;
     display: flex;
     border-radius: 5px;
@@ -178,4 +178,18 @@ body{
     align-items: center;
     font-size: 13px;
     line-height: 35px;
+}
+
+.price{
+    color: red;
+    line-height: 20px;
+}
+
+.link{
+    position: absolute;
+    bottom: 0px;
+    height: 45px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
