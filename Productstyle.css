@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 body{
 	margin:0px;
 	padding: 0px;
@@ -42,7 +48,7 @@ a{
 	padding-right: 8px;
 }
 .type span{
-	color:rgba(26,26,26,0.5);
+	color:black;
 }
 .price{
 	color: #333333;
@@ -244,4 +250,72 @@ body{
     margin: 0;
     height: 100vh;
     overflow-x: hidden;
+}
+
+
+.Amazon1{
+    position: relative;
+    left: -170px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.Flip{
+    font-size: 18px;
+    position: relative;
+    top: -8px;
+    right: -10px;
+}
+
+.Rainy{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -14px;
+}
+
+.living{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    position: relative;
+    top: -540px;
+    right: -670px;
+}
+
+.Amazon2{
+    position: relative;
+    left: -100px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.Painting{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -50px;
+}
+
+.Amazon3{
+    position: relative;
+    left: -175px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.Amazon4{
+    position: relative;
+    left: -140px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.legs{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -25px; 
 }
