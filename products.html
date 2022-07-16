@@ -1,23 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Productstyle.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="lightslider.css">
-    <title>Products</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Products</title>
+<link rel="stylesheet"  href="ProductStyle.css" />
+<link rel="stylesheet"  href="lightslider.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="lightslider.css">
+
+    <script>
+	  $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+	</script>
+
+
 </head>
+
 <body>
-    <section class="header" aria-label="Newest Photos">
+
+	<section class="header" aria-label="Newest Photos">
      
         <nav>
           <a href=""><img src="Img/Experts Logo.png" class="logo" height="100px" width="150px" marigin-top="13px" alt="" /></a>
@@ -38,104 +53,213 @@
         </nav>
       </section>
 
+ <section class="slider">
+	<ul id="autoWidth" class="cs-hidden">
 
-      <ul id="autoWidth" class="cs-hidden">
-        <li class="item-a">
-          <div class="box">
-            <div class="slider">
-              <img src="Img/1.png" alt="" srcset="">
-            </div>
-            <div class="detail">
-              <div class="type">
-                <span>Rainy Umbrella Modern Art</span>
-              </div>
-            </div>
-            <a href="https://dl.flipkart.com/s/cgohbENNNN" class="flipkart">Flipkart</a>
-            <a href="https://amzn.eu/d/3lv7kKP" class="Amazon">Amazon</a>
-          </div>
-        </li>
-        <li class="item-b">
-          <div class="box">
-            <div class="slider">
-              <img src="Img/2.png" alt="" srcset="">
-            </div>
-            <div class="detail">
-              <div class="type">
-                <span>Framed Painting</span>
-              </div>
-            </div>
-            <a href="https://dl.flipkart.com/s/fttvMOuuuN" class="flipkart">Flipkart</a>
-            <a href="https://amzn.eu/d/dmFc745" class="Amazon">Amazon</a>
-          </div>
-        </li>
-        <li class="item-c">
-          <div class="box">
-            <div class="slider">
-              <img src="Img/3.png" alt="" srcset="">
-            </div>
-            <div class="detail">
-              <div class="type">
-                <span>Canon Brass Showpiece</span>
-              </div>
-            </div>
-            <a href="https://dl.flipkart.com/s/ftwSZYuuuN" class="flipkart">Flipkart</a>
-            <a href="https://amzn.eu/d/4CwGeOj" class="Amazon">Amazon</a>
-          </div>
-        </li>
-        <li class="item-d">
-          <div class="box">
-            <div class="slider">
-              <img src="Img/4.png" alt="" srcset="">
-            </div>
-            <div class="detail">
-              <div class="type">
-                <span>Love Hanging Legs</span>
-              </div>
-            </div>
-            <a href="https://dl.flipkart.com/s/fRF!!OuuuN" class="flipkart">Flipkart</a>
-            <a href="https://amzn.eu/d/ie9LKjL" class="Amazon">Amazon</a>
-          </div>
-        </li>
-        <li class="item-e">
-          <div class="box">
-            <div class="slider">
-              <img src="Img/5.png" alt="" srcset="">
-            </div>
-            <div class="detail">
-              <div class="type">
-                <span>Ceiling Light</span>
-              </div>
-            </div>
-            <a href="https://dl.flipkart.com/s/605kSFNNNN" class="flipkart">Flipkart</a>
-            <a href="https://amzn.eu/d/0cAupp5" class="Amazon">Amazon</a>
-          </div>
-        </li>
-        <li class="item-f">
-          <div class="box">
-            <div class="slider">
-              <img src="Img/6.png" alt="" srcset="">
-            </div>
-            <div class="detail">
-              <div class="type">
-                <span>Design Wall Art Painting</span>
-              </div>
-            </div>
-            <a href="https://amzn.eu/d/107wr6O" class="Amazon">Amazon</a>
-          </div>
-        </li>
-        
-      </ul>
+  <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="Img/1.png">
+	<div class="overlay">
+	
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Andman</a>
+	    <span>Tour</span>
+	</div>
+	<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Amazon</a>
+	<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Amazon</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/2.jpg">
+	<div class="overlay">
+	
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Bhutan</a>
+	    <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/3.jpg">
+	<div class="overlay">
+		
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Darjeeling</a>
+	    <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/4.jpg">
+	<div class="overlay">
+		
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Himanchal</a>
+	  <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/5.jpg">
+	<div class="overlay">
+	
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Kerala</a>
+	    <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/6.jpg">
+	<div class="overlay">
+		
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Laddakh</a>
+	    <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/7.jpg">
+	<div class="overlay">
+	
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Uttarakhand</a>
+	   <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/8.jpg">
+	<div class="overlay">
+		
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Nepal</a>
+	    <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/9.jpg">
+	<div class="overlay">
+
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Rajasthan</a>
+	   <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+    <li class="item-a">
+	<div class="box">
+	<div class="slide-img">
+	<img alt="schauhan.in responsive product slider using html css and javascript" src="E-slider-images/10.jpg">
+	<div class="overlay">
+	
+	</div>
+	</div>
+	<div class="detail-box">
+	<div class="type">
+	<a href="#">Goa</a>
+	   <span>Tour Package</span>
+	</div>
+	<a href="#" class="price">$23</a>
+	</div>
+	</div>		
+   </li>
+   
+   
+   
+   
+	
+  
+</ul>
+	</section>
     
-
-      
-     
-
-     
+    
+   
 </body>
 <script src="https://kit.fontawesome.com/4393a238ab.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery-3.5.1.js"></script>
+<script type="text/javascript" src="lightslider.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="productjs.js"></script>
-<script src="jquery.js"></script>
-<script src="lightslider.js"></script>
 </html>
