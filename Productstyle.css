@@ -210,16 +210,22 @@ nav ul a:hover{
 .fa-instagram {
   background: transparent;
   color: black;
+  position: relative;
+  bottom: -6px;
 }
 
 .fa-facebook {
     background: transparent;
     color: black;
+    position: relative;
+    bottom: -6px;
   }  
 
 .fa-bell {
     background: transparent;
     color: black;
+    position: relative;
+    bottom: -6px;
 }  
 
 nav ul a::after{
@@ -280,7 +286,7 @@ body{
     font-size: 50px;
     position: relative;
     top: -540px;
-    right: -670px;
+    right: -750px;
 }
 
 .Amazon2{
@@ -318,4 +324,132 @@ body{
     white-space: nowrap ;
     position: relative;
     right: -25px; 
+}
+
+.Ceiling{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -26px;
+}
+
+.Amazon5{
+    position: relative;
+    left: -190px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.Wall{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -5px; 
+}
+
+.Amazon6{
+    position: relative;
+    left: -150px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.God{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -22px; 
+}
+
+.Amazon7{
+    position: relative;
+    left: -120px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Lamp{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -35px; 
+}
+
+.Amazon8{
+    position: relative;
+    left: -150px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.table{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -25px; 
+}
+
+.Amazon9{
+    position: relative;
+    left: -150px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.curtain{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -25px; 
+}
+
+.Amazon10{
+    position: relative;
+    left: -165px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Amazon11{
+    position: relative;
+    left: -200px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.light{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -2px; 
+}
+
+.Amazon12{
+    position: relative;
+    left: -180px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Garland{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -5px; 
+}
+
+.Buddha{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -9px;
 }
