@@ -453,3 +453,55 @@ body{
     position: relative;
     right: -9px;
 }
+
+.shell{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -8px;
+}
+
+.Amazon13{
+    position: relative;
+    left: -118px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Clock{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -35px;
+}
+
+.shel{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -36px;
+}
+
+.corner{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -23px;
+}
+.Amazon14{
+    position: relative;
+    left: -138px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Amazon15{
+    position: relative;
+    left: -168px;
+    bottom: -63px;
+    font-size: 19px; 
+}
