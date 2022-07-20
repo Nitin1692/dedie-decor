@@ -505,3 +505,70 @@ body{
     bottom: -63px;
     font-size: 19px; 
 }
+
+.Amazon16{
+    position: relative;
+    left: -120px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.shelf1{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -35px;
+}
+
+.Amazon17{
+    position: relative;
+    left: -180px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Floating{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -8px;
+}
+
+.Amazon18{
+    position: relative;
+    left: -190px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.lantern{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -8px; 
+}
+
+.Amazon19{
+    position: relative;
+    left: -150px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Amazon20{
+    position: relative;
+    left: -107px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.carpet{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -50px;
+}
