@@ -286,7 +286,7 @@ body{
     font-size: 50px;
     position: relative;
     top: -540px;
-    right: -750px;
+    right: -685px;
 }
 
 .Amazon2{
@@ -571,4 +571,86 @@ body{
     white-space: nowrap ;
     position: relative;
     right: -50px;
+}
+
+.Amazon21{
+    position: relative;
+    left: -190px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.tab{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -3px;
+}
+
+.Amazon22{
+    position: relative;
+    left: -132px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.donut{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -30px;
+}
+
+.Amazon23{
+    position: relative;
+    left: -161px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.qty{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -16px;
+}
+
+.Amazon24{
+    position: relative;
+    left: -130px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Effiel{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -32px;
+}
+
+.Amazon25{
+    position: relative;
+    left: -165px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.Amazon26{
+    position: relative;
+    left: -140px;
+    bottom: -63px;
+    font-size: 19px; 
+}
+
+.stick{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    white-space: nowrap ;
+    position: relative;
+    right: -27px;
 }
