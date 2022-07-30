@@ -83,7 +83,12 @@ nav ul a:hover{
 .fa-instagram {
   background: transparent;
   color: white;
-}  
+} 
+
+.fa-right-to-bracket {
+    background: transparent;
+    color: white;
+  }  
 
 #tet{
     background: transparent;
