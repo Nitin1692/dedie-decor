@@ -104,3 +104,180 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Poppins:wght@500&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.miniz{
+    padding-top: 50px;
+}
+
+.miniz{
+    position: relative;
+    top: -650px;
+}
+
+.Expert1{
+    padding-left: 450px;
+    position: relative;
+    top: -905px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    right: -75px;
+    left: -20px;
+}
+
+.logo >img{
+    align-content: inherit;
+    align-items: flex-start;
+    padding: 10px;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 13px;
+    margin-left: 200px;
+}
+
+.logo{
+    position: relative;
+    top: -20px;
+}
+ 
+nav{
+    width: 1110px;
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    display: inline;
+    margin-left: 200px;
+}
+
+.logo{
+
+   
+    margin-top: 13px;
+}
+
+
+nav ul{
+   text-align: right;
+   display: inline;
+   align-content: right;
+}
+
+ul a{
+    float: right;
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    align-items: flex-end;
+
+}
+
+
+nav ul a:hover{
+    color: #FF9677;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    align-content: right;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    position: relative;
+	bottom: -px;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: black;
+  position: relative;
+  bottom: -6px;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: black;
+    position: relative;
+    bottom: -6px;
+  } 
+  
+  .fa-right-to-bracket {
+    background: transparent;
+    color: black;
+    position: relative;
+    bottom: -6px;
+  }  
+
+  .fa-amazon {
+    background: transparent;
+    color: black;
+    position: relative;
+    bottom: -6px;
+  }  
+
+
+.fa-bell {
+    background: transparent;
+    color: black;
+    position: relative;
+    bottom: -6px;
+}  
+
+#Home{
+    position: relative;
+    bottom: -5px;
+}
+ #Products{
+    position: relative;
+    bottom: -5px;
+ }
+
+ #Experts{
+    position: relative;
+    bottom: -5px;
+ }
+nav ul a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #5e9387;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+    
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+        
+}
+body{
+
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.login-page{
+    position: relative;
+    top: -585px;
+}
