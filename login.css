@@ -130,19 +130,7 @@ body {
     left: -20px;
 }
 
-.logo >img{
-    align-content: inherit;
-    align-items: flex-start;
-    padding: 10px;
-    clip-path: circle(50% at 50% 50%);
-    margin-top: 13px;
-    margin-left: 200px;
-}
 
-.logo{
-    position: relative;
-    top: -20px;
-}
  
 nav{
     width: 1110px;
@@ -153,11 +141,7 @@ nav{
     margin-left: 200px;
 }
 
-.logo{
 
-   
-    margin-top: 13px;
-}
 
 
 nav ul{
@@ -219,12 +203,7 @@ nav ul a:hover{
     bottom: -6px;
   }  
 
-  .fa-amazon {
-    background: transparent;
-    color: black;
-    position: relative;
-    bottom: -6px;
-  }  
+ 
 
 
 .fa-bell {
@@ -234,19 +213,7 @@ nav ul a:hover{
     bottom: -6px;
 }  
 
-#Home{
-    position: relative;
-    bottom: -5px;
-}
- #Products{
-    position: relative;
-    bottom: -5px;
- }
 
- #Experts{
-    position: relative;
-    bottom: -5px;
- }
 nav ul a::after{
     content: '';
     width: 0%;
@@ -279,5 +246,5 @@ body{
 
 .login-page{
     position: relative;
-    top: -585px;
+    top: -580px;
 }
