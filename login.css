@@ -161,6 +161,21 @@ ul a{
     align-items: flex-end;
 
 }
+.logo >img{
+    align-content: inherit;
+    align-items: flex-start;
+    padding: 10px;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 13px;
+    margin-left: 200px;
+}
+
+
+.logo{
+
+   
+margin-top: 13px;
+}
 
 
 nav ul a:hover{
@@ -269,4 +284,3 @@ body{
   transform: translate(-50%, -50%);
   transition: .15s;
 }
-
